@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.steven fellingham.spiker" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.stevenfellingham.spiker" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>spiker</name>
 	<description>Spiker</description>
 	<author email="fellingham9@aol.com">Steven Fellingham</author>
@@ -19,7 +19,7 @@
 
 
 	<preference name="deployment-target" value="10.0" />
-	<preference name="android-minSdkVersion" value="23" />
+	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />

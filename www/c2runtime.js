@@ -19302,8 +19302,8 @@ cr.plugins_.admob = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
 	cr.plugins_.Browser,
-	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Sprite.prototype.acts.StopAnim,
