@@ -28,7 +28,7 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-	<plugin name="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
+	
     <plugin name="cordova-plugin-ad-admob-sdk" spec="https://github.com/cranberrygame/cordova-plugin-ad-admob-sdk"/> <!-- If available via Cordova registry; consider changing to an NPM reference. -->
 
 	<engine name="ios" />
