@@ -21,7 +21,7 @@
 	<preference name="deployment-target" value="9.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
-      <plugin name="cordova-plugin-ad-admob-sdk" spec="https://github.com/cranberrygame/cordova-plugin-ad-admob-sdk"/> <!-- If available via Cordova registry; consider changing to an NPM reference. -->
+
 	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-ad-admob" />
 	<plugin name="cordova-plugin-file" />
