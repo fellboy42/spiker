@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.stevenfellingham.spiker" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>spiker</name>
+	<name>spiker1</name>
 	<description>Spiker</description>
 	<author email="fellingham9@aol.com">Steven Fellingham</author>
 
@@ -19,17 +19,17 @@
 
 
 	<preference name="deployment-target" value="9.0" />
-	<preference name="android-minSdkVersion" value="21" />
+	<preference name="android-minSdkVersion" value="23" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
-	
+	<plugin name="cordova-plugin-ad-admob" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-     <plugin name="cordova-plugin-ad-admob-sdk" spec="https://github.com/cranberrygame/cordova-plugin-ad-admob-sdk"/> <!-- If available via Cordova registry; consider changing to an NPM reference. -->
+
 
 	<engine name="ios" />
 	<engine name="android" />

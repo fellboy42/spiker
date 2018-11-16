@@ -1,7 +1,7 @@
 ﻿{
 	"id": "com.stevenfellingham.spiker",
 	"version": "1.0.0.0",
-	"name": "spiker",
+	"name": "spiker1",
 	"description": "Spiker",
 	"author": "Steven Fellingham",
 	"email": "fellingham9@aol.com",
@@ -30,7 +30,7 @@
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
 	],
 	"android": {
-		"min": 21,
+		"min": 23,
 		"target": 26,
 		"plugins": []
 	},
