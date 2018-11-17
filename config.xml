@@ -29,7 +29,7 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-     <plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture" source="git" />
+     [code:n5cfhhbc]<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />[/code:n5cfhhbc]
 
 	<engine name="ios" />
 	<engine name="android" />
