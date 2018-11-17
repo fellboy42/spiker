@@ -22,13 +22,13 @@
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
+	<plugin name="cocoon-plugin-ads-android-admob" />
 	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-	<plugin name="https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.ad.admob#5155223fd774252be3a0f8cd7be3a94992ca995e" />
 
 
 	<engine name="ios" />
