@@ -19411,6 +19411,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.TR_UltimateAds.prototype.acts.LoadBanner,
 	cr.plugins_.TR_UltimateAds.prototype.cnds.OnBannerLoaded,
 	cr.plugins_.TR_UltimateAds.prototype.acts.ShowBanner,
+	cr.plugins_.TR_UltimateAds.prototype.acts.SetLayout,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.MoveAtAngle,
