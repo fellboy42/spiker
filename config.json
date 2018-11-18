@@ -1,9 +1,9 @@
 ﻿{
-	"id": "com.fellingham.testads",
+	"id": "com.stevenfellingham.spiker",
 	"version": "1.0.0.0",
-	"name": "test ads",
-	"description": "test ads",
-	"author": "steven fellingham",
+	"name": "spiker1",
+	"description": "Spiker",
+	"author": "Steven Fellingham",
 	"email": "fellingham9@aol.com",
 	"website": "",
 	"fullscreen": "true",
@@ -24,6 +24,7 @@
 		{ "id": "cocoon-plugin-ads-android-admob", "version": null },
 		{ "id": "cordova-custom-config", "version": null },
 		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
 		{ "id": "cordova-plugin-statusbar", "version": null },
 		{ "id": "cordova-plugin-whitelist", "version": null },
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
@@ -34,7 +35,7 @@
 		"plugins": []
 	},
 	"ios": {
-		"target": "8.0",
+		"target": "9.0",
 		"plugins": []
 	}
 }

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.fellingham.testads" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>test ads</name>
-	<description>test ads</description>
-	<author email="fellingham9@aol.com">steven fellingham</author>
+<widget id="com.stevenfellingham.spiker" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>spiker1</name>
+	<description>Spiker</description>
+	<author email="fellingham9@aol.com">Steven Fellingham</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
@@ -18,15 +18,14 @@
 	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
 
 
-	<preference name="deployment-target" value="8.0" />
+	<preference name="deployment-target" value="9.0" />
 	<preference name="android-minSdkVersion" value="21" />
-	
-     <uses-permission android:name="android.permission.INTERNET" />
-     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<access origin="*" />
 
 	<plugin name="cocoon-plugin-ads-android-admob" />
 	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
