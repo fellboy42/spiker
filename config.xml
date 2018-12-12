@@ -22,14 +22,14 @@
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
+	<plugin name="cocoon-plugin-ads-android-admob" />
 	<plugin name="cordova-custom-config" />
-	<plugin name="cordova-plugin-ad-admob" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-<compilerarg value="-Xlint:deprecation"/>
+
 
 	<engine name="ios" />
 	<engine name="android" />
