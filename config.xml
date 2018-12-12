@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.stevenfellingham.spiker" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.stevenfellingham.spiker" version="4.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>spiker1</name>
 	<description>Spiker</description>
 	<author email="fellingham9@aol.com">Steven Fellingham</author>
@@ -18,18 +18,18 @@
 	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
 
 
-	<preference name="deployment-target" value="9.0" />
+	<preference name="deployment-target" value="10.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
-	<plugin name="cocoon-plugin-ads-android-admob" />
 	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-ad-admob" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-     [code:n5cfhhbc]<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />[/code:n5cfhhbc]
+
 
 	<engine name="ios" />
 	<engine name="android" />
