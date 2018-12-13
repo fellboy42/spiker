@@ -1,6 +1,6 @@
 ﻿{
 	"id": "com.stevenfellingham.spiker",
-	"version": "5.0.0.0",
+	"version": "6.0.0.0",
 	"name": "spiker1",
 	"description": "Spiker",
 	"author": "Steven Fellingham",
@@ -21,10 +21,9 @@
 		"density": "xhdpi"
 	}],
 	"plugins": [
-		{ "id": "cocoon-plugin-ads-android-admob", "version": null },
 		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-ad-admob", "version": null },
 		{ "id": "cordova-plugin-file", "version": null },
-		{ "id": "cordova-plugin-inappbrowser", "version": null },
 		{ "id": "cordova-plugin-statusbar", "version": null },
 		{ "id": "cordova-plugin-whitelist", "version": null },
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
